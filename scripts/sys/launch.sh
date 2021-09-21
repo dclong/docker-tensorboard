@@ -1,3 +1,3 @@
 #!/bin/bash
 
-tensorboard --logdir=/workdir
+tensorboard --bind_all --logdir=/workdir
